@@ -82,21 +82,7 @@
             color: var(--text-muted);
             margin-bottom: 2rem;
         }
-        .btn {
-            display: inline-block;
-            background: linear-gradient(135deg, var(--accent-orange), #ea580c);
-            color: white;
-            padding: 0.8rem 2rem;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-        .btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 20px rgba(249, 115, 22, 0.4);
-        }
-
+       
         /* Interactive Code Box Demo */
         .hero-visual {
             max-width: 45%;
@@ -210,7 +196,7 @@
         <div class="hero-content">
             <h1>Master Data Science with <span>JupyterLab</span></h1>
             <p>Go from absolute beginner to writing interactive Python code, building data visualizations, and managing notebooks like a pro.</p>
-            <a href="#curriculum" class="btn">Start Learning Free</a>
+            
         </div>
         <div class="hero-visual">
             <div class="code-box">
