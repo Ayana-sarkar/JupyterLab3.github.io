@@ -100,14 +100,8 @@
             gap: 0.5rem;
             margin-bottom: 1rem;
         }
-        .dot {
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-        }
-        .dot-red { background-color: #ef4444; }
-        .dot-yellow { background-color: #eab308; }
-        .dot-green { background-color: #22c55e; }
+        
+    
         
         .code-input {
             color: var(--accent-blue);
@@ -197,23 +191,7 @@
             <h1>Master Data Science with <span>JupyterLab</span></h1>
             <p>Go from absolute beginner to writing interactive Python code, building data visualizations, and managing notebooks like a pro.</p>
             
-        </div>
-        <div class="hero-visual">
-            <div class="code-box">
-                <div class="code-header">
-                    <div class="dot dot-red"></div>
-                    <div class="dot dot-yellow"></div>
-                    <div class="dot dot-green"></div>
-                </div>
-                <div class="code-input">
-                    <span style="color: #64748b;">[1]:</span> import pandas as pd<br>
-                    <span style="color: #64748b;">[2]:</span> print("Welcome to JupyterLab!")
-                </div>
-                <div class="code-output">
-                    Welcome to JupyterLab!
-                </div>
-            </div>
-        </div>
+      
     </section>
 
     <section id="curriculum" class="curriculum">
