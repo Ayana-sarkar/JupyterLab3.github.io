@@ -231,14 +231,13 @@
     </section>
 
     <section id="curriculum" class="curriculum">
-        <h2>What You'll Learn</h2>
         <div class="grid">
             <div class="card">
-                <h3>1. Interface & Setup</h3>
+                <h2>1. Interface & Setup</h3>
                 <p>Install Anaconda, launch JupyterLab, and master the left sidebar, file browser, and tabbed layouts.</p>
             </div>
             <div class="card">
-                <h3>2. Cells & Markdown</h3>
+                <h2>2. Cells & Markdown</h3>
                 <p>Green building is a resource-efficient method of construction that produces healthier buildings which 
                   have less impact on the environment and cost less to maintain. It refers to the design, construction, 
                  and operation of buildings in an environmentally responsible and resource-efficient manner. The 
@@ -260,11 +259,11 @@
                 sustainable building standards and performance criteria</p>
             </div>
             <div class="card">
-                <h3>3. Keyboard Shortcuts</h3>
+                <h2>3. Keyboard Shortcuts</h3>
                 <p>Speed up your workflow drastically using Command and Edit modes, cell execution shortcuts, and deletions.</p>
             </div>
             <div class="card">
-                <h3>4. Data & Visuals</h3>
+                <h2>4. Data & Visuals</h3>
                 <img src="htt.png.png" alt="Data Visualization" class="box-image">
                 <p>Import CSVs, run Pandas operations, and render beautiful Matplotlib/Seaborn plots directly inside your notebook.</p>
                
