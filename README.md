@@ -254,10 +254,10 @@
                 • Incorporation of ventilation systems, low-emission materials, and adequate daylighting to enhance 
                   indoor air quality and occupant comfort
                   • Integration of on-site renewable energy sources to reduce reliance on fossil fuels and mitigate 
-carbon emissions
-• Life Cycle Assessment of the building materials and system
-• Adoption of green building certification (like LEED etc) systems to ensure adherence to 
-sustainable building standards and performance criteria</p>
+                carbon emissions
+                • Life Cycle Assessment of the building materials and system
+                • Adoption of green building certification (like LEED etc) systems to ensure adherence to 
+                sustainable building standards and performance criteria</p>
             </div>
             <div class="card">
                 <h3>3. Keyboard Shortcuts</h3>
