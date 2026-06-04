@@ -239,7 +239,25 @@
             </div>
             <div class="card">
                 <h3>2. Cells & Markdown</h3>
-                <p>Learn the difference between Code and Markdown cells. Format notes with headers, lists, and math equations.</p>
+                <p>Green building is a resource-efficient method of construction that produces healthier buildings which 
+have less impact on the environment and cost less to maintain. It refers to the design, construction, 
+and operation of buildings in an environmentally responsible and resource-efficient manner. The 
+objective is to minimize both the environmental footprint and any adverse effects on human health 
+across the entire lifespan of the building by
+• Utilization of environmentally friendly materials such as recycled, renewable, or locally sourced 
+resources to minimize environmental impact during construction.
+• Incorporation of energy-saving technologies and design strategies to minimize energy 
+consumption and reduce greenhouse gas emissions.
+• Minimization water usage and promote water conservation.
+• Implementation of waste management strategies to minimize landfill waste and promote resource 
+efficiency
+• Incorporation of ventilation systems, low-emission materials, and adequate daylighting to enhance 
+indoor air quality and occupant comfort
+• Integration of on-site renewable energy sources to reduce reliance on fossil fuels and mitigate 
+carbon emissions
+• Life Cycle Assessment of the building materials and system
+• Adoption of green building certification (like LEED etc) systems to ensure adherence to 
+sustainable building standards and performance criteria</p>
             </div>
             <div class="card">
                 <h3>3. Keyboard Shortcuts</h3>
