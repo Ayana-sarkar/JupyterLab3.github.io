@@ -200,7 +200,7 @@
     <nav>
         <div class="logo">🚀 Learn<span>Jupyter</span></div>
         <div class="nav-links">
-            <a href=" Environmental Management.pdf">ENVS</a>
+            <a href="Environmental Management.pdf">ENVS</a>
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
         </div>
