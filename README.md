@@ -266,6 +266,7 @@
             <div class="card">
                 <h3>4. Data & Visuals</h3>
                 <p>Import CSVs, run Pandas operations, and render beautiful Matplotlib/Seaborn plots directly inside your notebook.</p>
+             <img width="753" height="582" alt="htt png" src="https://github.com/user-attachments/assets/283d3aea-eb7b-4042-9670-7c931a18ede9" alt="Visual Description" class="box-image"/>   
             </div>
         </div>
     </section>
