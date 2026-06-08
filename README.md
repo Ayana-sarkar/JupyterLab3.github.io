@@ -83,7 +83,7 @@
          color: var(--accent-orange);
        }
        h1 {
-    margin-top: 10px; 
+       margin: 10px 0;
     }
 
 
