@@ -91,6 +91,20 @@
          margin-bottom: 2rem;
          max-width: 800px; 
        }
+       .btn {
+        display: inline-block;
+        background: linear-gradient(135deg, var(--accent-orange), #ea580c);
+        color: white;
+        padding: 0.8rem 2rem;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 20px rgba(249, 115, 22, 0.4);
+    }
        
         /* Interactive Code Box Demo */
         .hero-visual {
@@ -189,9 +203,6 @@
     <nav>
         <div class="logo">🚀 Learn<span>Jupyter</span></div>
         <div class="nav-links">
-            <a href="Environmental Management.pdf">ENVS</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
         </div>
     </nav>
 
@@ -199,12 +210,14 @@
         <div class="hero-content">
             <h1>Master Data Science with <span>JupyterLab</span></h1>
             <p>Go from absolute beginner to writing interactive Python code, building data visualizations, and managing notebooks like a pro.</p>
-            
-      
+            <a href="https://ayana-sarkar.github.io/Home2.github.io/" class="btn">Basic</a>
+         <a href="https://ayana-sarkar.github.io/JupyterLab4.github.io/" class="btn">Plotting with List</a>
+        <a href="https://ayana-sarkar.github.io/JupyterLab5.github.io/" class="btn">Plotting with Arrays</a>
+        <a href="https://ayana-sarkar.github.io/JupyterLab2.github.io/" class="btn">Interpolation</a>
+        </div>
     </section>
 
     <section id="curriculum" class="curriculum">
-        <div class="grid">
             <div class="card">
                 <h2>1. Interface & Setup</h2>
                 <p>Install Anaconda, launch JupyterLab, and master the left sidebar, file browser, and tabbed layouts.</p>
@@ -226,10 +239,6 @@
             </div>
         </div>
     </section>
-
-    <footer>
-        <p>&copy; 2026 LearnJupyter Course. Built for future Data Scientists.</p>
-    </footer>
 
 </body>
 </html>
