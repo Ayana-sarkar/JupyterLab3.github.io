@@ -1,5 +1,4 @@
 # JupyterLab3.github.io
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -195,7 +194,6 @@
             .nav-links {
                 display: none; /* Keep it simple for mobile */
             }
-        }
     </style>
 </head>
 <body>
@@ -235,9 +233,7 @@
                 <h2>4. Data & Visuals</h2>
                 <img src="htt.png.png" alt="Data Visualization" class="box-image">
                 <p>Import CSVs, run Pandas operations, and render beautiful Matplotlib/Seaborn plots directly inside your notebook.</p>
-               
             </div>
-        </div>
     </section>
 
 </body>
