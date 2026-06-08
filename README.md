@@ -33,6 +33,8 @@
             justify-content: space-between;
             align-items: center;
             padding: 1.5rem 10%;
+            padding-bottom: 0px; 
+            margin-bottom: 0px;
             background-color: rgba(15, 23, 42, 0.8);
             backdrop-filter: blur(10px);
             position: sticky;
@@ -42,6 +44,8 @@
         .logo {
             font-size: 1.5rem;
             font-weight: bold;
+            padding-bottom: 0px; 
+            margin-bottom: 0px;
             color: var(--text-main);
         }
         .logo span {
@@ -83,7 +87,7 @@
          color: var(--accent-orange);
        }
        .h1 {
-       margin: 10px 0;
+       margin-top: 10px;
     }
 
 
