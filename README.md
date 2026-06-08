@@ -82,6 +82,9 @@
      .hero-content h1 span {
          color: var(--accent-orange);
        }
+       h1 {
+    margin-top: 10px; 
+    }
 
 
      .hero-content p {
