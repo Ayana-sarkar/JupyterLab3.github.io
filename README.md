@@ -123,8 +123,6 @@
             margin-bottom: 1rem;
         }
         
-    
-        
         .code-input {
             color: var(--accent-blue);
             font-family: 'Courier New', Courier, monospace;
@@ -206,8 +204,7 @@
 
     <section class="hero">
         <div class="hero-content">
-            <h1>Master Data Science with <span>JupyterLab</span></h1>
-            <p>Go from absolute beginner to writing interactive Python code, building data visualizations, and managing notebooks like a pro.</p>
+            <h1>Let's Practice more!</h1>
             <a href="https://ayana-sarkar.github.io/Home2.github.io/" class="btn">Basic</a>
          <a href="https://ayana-sarkar.github.io/JupyterLab4.github.io/" class="btn">Plotting with List</a>
         <a href="https://ayana-sarkar.github.io/JupyterLab5.github.io/" class="btn">Plotting with Arrays</a>
