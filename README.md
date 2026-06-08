@@ -211,7 +211,6 @@
 
     <section class="hero">
         <div class="hero-content">
-            <h1>Let's Practice more!</h1>
             <a href="https://ayana-sarkar.github.io/Home2.github.io/" class="btn">Basic</a>
          <a href="https://ayana-sarkar.github.io/JupyterLab4.github.io/" class="btn">Plotting with List</a>
         <a href="https://ayana-sarkar.github.io/JupyterLab5.github.io/" class="btn">Plotting with Arrays</a>
