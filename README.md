@@ -202,11 +202,8 @@
     </style>
 </head>
 <body>
-
     <nav>
         <div class="logo">🚀 Learn<span>Jupyter</span></div>
-        <div class="nav-links">
-        </div>
     </nav>
 
     <section class="hero">
