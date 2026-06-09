@@ -22,7 +22,7 @@
         }
 
         body {
-            background-color: var(--bg-color);
+            background-color: #1A365D;
             color: var(--text-main);
             line-height: 1.6;
         }
@@ -260,7 +260,7 @@
                 in the year 2020? The values of the parameters are a1 = -0.0313 (Swami) and a2 = -0.121 (Ghosh). Supply labels and legends for the graphs.<br></p>
                 <img src="" alt="Data Visualization" class="box-image">
                 <img src="" alt="Data Visualization" class="box-image">
-                predicted population in the year 2020 <br></p>
+                <p>predicted population in the year 2020 <br></p>
                 <img src="" alt="Data Visualization" class="box-image">
             </div>
             <div class="card">
