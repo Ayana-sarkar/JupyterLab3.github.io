@@ -221,22 +221,88 @@
 
     <section id="curriculum" class="curriculum">
             <div class="card">
-                <h2>1. Interface & Setup</h2>
-                <p>Install Anaconda, launch JupyterLab, and master the left sidebar, file browser, and tabbed layouts.</p>
+                <h2>1.Identify the errors</h2>
+                <img src="" alt="Data Visualization" class="box-image">
+                <p>Answers: <br> 
+                Line2,3 : range should always be in ( ) , not { } . <br> 
+                Line 3: wrong-- [i in range{1,100}] <br> 
+                Right-- [i for i in range(1,100)]<br> 
+                Line 4: there’s a typo error; x and X are not the same. <br></p>
+                <img src="" alt="Data Visualization" class="box-image">
             </div>
             <div class="card">
-                <h2>2. Cells & Markdown</h2>
-                <p>Grlding certification (like LEED etc) systems to ensure adherence to 
-                sustainable building standards and performance criteria</p>
+                <h2>2.Identify the errors </h2>
+                <img src="" alt="Data Visualization" class="box-image">
+                <p>Answers:<br> 
+                Line 4 :  the y array contains only 1 element that is 0, so no way any graph can be plotted. <br> 
+                Line 5,6: JupyterLab cannot understand  --val1, val2 in (x,y)<br> 
+                zip(x,y) is essential  to bring the values from x and y .<br> </p>
+                <img src="" alt="Data Visualization" class="box-image">
             </div>
             <div class="card">
-                <h2>3. Keyboard Shortcuts</h2>
-                <p>Speed up your workflow drastically using Command and Edit modes, cell execution shortcuts, and deletions.</p>
+                <h2>3. Plot the functions x, x 3 , e x and e x ^2 over the interval 0 < x < 4 using (i) rectangular paper (ii) semilog paper (iii)log-log paper. </h2>
+                <img src="" alt="Data Visualization" class="box-image">
+                <img src="" alt="Data Visualization" class="box-image">
+                <img src="" alt="Data Visualization" class="box-image">
+                <p>plt.semilogy(x, y) plots data with a linear scale on the horizontal (x) axis and a logarithmic (base-10) scale on the vertical (y) axis. </p>
+                <img src="" alt="Data Visualization" class="box-image">
+                <img src="" alt="Data Visualization" class="box-image">
+                <p>plt.loglog(x, y) : This creates a plot where both the x-axis and the y-axis are scaled logarithmically. </p>
+                <img src="" alt="Data Visualization" class="box-image">
             </div>
             <div class="card">
-                <h2>4. Data & Visuals</h2>
-                <img src="htt.png.png" alt="Data Visualization" class="box-image">
-                <p>Import CSVs, run Pandas operations, and render beautiful Matplotlib/Seaborn plots directly inside your notebook.</p>
+                <h2>4.Population Graph</h2>
+                <p>Plot the expression Pi(t), determined in modeling the growth of the population of a certain country according to two different models labelled by the parameters a1 and a2 given by<br> 
+                Pi(t) = 197, 273, 000/(1 + eai (t-1913.25))  <br> 
+                where t is the date, in years AD, using t = 1790 to 2000. What population is predicted 
+                in the year 2020? The values of the parameters are a1 = -0.0313 (Swami) and a2 = -0.121 (Ghosh). Supply labels and legends for the graphs.<br></p>
+                <img src="" alt="Data Visualization" class="box-image">
+                <img src="" alt="Data Visualization" class="box-image">
+                predicted population in the year 2020 <br></p>
+                <img src="" alt="Data Visualization" class="box-image">
+            </div>
+            <div class="card">
+                <h2>5.Plot the Trajectory</h2>
+                <p>Write a Python script using matplotlib to plot the height of the object over the first 5 seconds . Include a dashed horizontal line at h = 0 to clearly show the ground level. Use scipy.optimize.fsolve to numerically determine a time t when the object is at ground level (h(t) = 0), using an initial guess of tguess = 0.2.</p>
+                <img src="" alt="Data Visualization" class="box-image">
+                <p>The height of the object as a function of time t (represented as x in the code) is given by the kinematic equation: <br> 
+                h(t) = vt – ½*gt^2<br> 
+                plt.axhline(0) adds a horizontal line across the entire width of the  plot at a specific y-value. It tells the function to place the line at y = 0.<br> 
+                x_guess = 0.2 Sets the starting point (initial guess) for the root-finding algorithm. Fsolve would start from 0.2 and "walk" along the curve until they find where it hits zero.<br> 
+                fsolve(nonlinear_eq, x_guess): This calls SciPy's root finder. It takes the function (nonlinear_eq) and the starting point (0.2), does the mathematical heavy lifting, and returns the answer inside a NumPy array (e.g., [0.0]).<br>
+                [0]: Because fsolve returns an array, adding [0] at the end grabs just the first number out of that array so x_solution becomes a clean, single float value (0.0) instead of a list.<br> 
+                Isclose: Computers struggle with perfect precision due to floating-point math. Instead of checking if the result is exactly 0 (which might fail if the computer calculates 0.0000000000000001), np.isclose(..., 0) asks: "Is this number close enough to zero within a tiny fraction of a tolerance?" It evaluates to a boolean: True or False.</p>
+                <img src="" alt="Data Visualization" class="box-image">
+            </div>
+            <div class="card">
+                <h2>6.Normal Probability Density Function</h2>
+                <p.>Write a Python script using scipy.stats.norm.pdf and matplotlib to plot the theoretical standard normal distribution (where the mean µ = 0 and standard deviation = 1 over the range [-4, 4]. Label the x-axis as 'Value', the y-axis as 'Density', title the plot 'Normal Distribution', and display a grid and a legend labeling the curve as 'Theoretical PDF'.</p>
+                <img src="" alt="Data Visualization" class="box-image">
+                <p>Line3:norm.pdf stands for the Normal Probability Density Function. It comes from the scipy.stats module (usually imported via from scipy.stats import norm)<br> 
+                x: This is your input array of data points (created by your np.linspace(-4, 4, 200)). The function will calculate a density value for all 200 points between -4 and 4.<br> 
+                loc=mu: This defines the mean (center) of your distribution. In your code, mu = 0, meaning the bell curve will be perfectly centered on 0.<br> 
+                scale=sigma: This defines the standard deviation (width/spread) of your distribution. In your code, sigma = 1. A standard deviation of 1 means about 68% of all data points will fall between x = -1 and x = 1.<br></p>
+                <img src="" alt="Data Visualization" class="box-image">
+            </div>
+            <div class="card">
+                <h2>7. radioactive decay equations for the combined decay of a Parent and Daughter nuclei using an Euler algorithm.</h2>
+                <img src="" alt="Data Visualization" class="box-image">
+                <p>CELL 1:<br> 
+                %matplotlib inline: A Jupyter Notebook magic command that ensures any plots generated will display directly inside the notebook rather than opening in a separate pop-up window.<br> 
+                t = t0 Initializes a tracking clock variable t to the starting time.<br> 
+                tVec = r_[t0:tmax:dt] Creates an array (a vector) of time steps from 0 to 5, spaced by 0.05. (Note: r_ is a NumPy shortcut, though standard practice usually uses np.arange(t0, tmax, dt)).<br> 
+                NaVec = zeros(size(tVec)) & NbVec= zeros(size(tVec)) Creates empty arrays filled with zeros that are exactly the same length as tVec. These will act as data logs to hold the population values of A and B at every single time step. (Note: In modern NumPy, these would typically be written as np.zeros(...)).<br> 
+                CELL 2: <br> 
+                i= 0: Initializes an index counter to keep track of which slot in our storage arrays (NaVec, NbVec) we are currently writing to.<br> 
+                for ti in tVec: Starts a loop that will run once for every single timestamp stored in tVec.<br> 
+                NaVec[i] = Na & NbVec[i] = Nb: Saves the current population values of A and B into our data logs at the current index position i.<br> 
+                Na = Na- (Na/Ta)*dt Calculates the new population of Parent A for the next time step using the differential equation dNA/dt = -NA\tauA. In code, it reads: New A = Old A minus the amount that decayed during this interval. <br> 
+                Nb = Nb + ((Na/Ta) - (Nb/Tb))*dt Calculates the new population of Daughter B. Its change depends on two things: it gains whatever Parent A just lost (Na/Ta), and simultaneously loses its own atoms as it decays into a granddaughter isotope (Nb/Tb). <br> 
+                i+=1:  Increments our index counter by 1 so that the next iteration of the loop saves its data into the very next slot of the arrays.<br> 
+                CELL 3: <br> 
+                rcParams['mattext.default']= 'regular':  Configures Matplotlib's math text rendering so that any LaTeX equations used in titles or labels match the regular font style of the graph rather than looking italicized.<br> 
+                la=r'$\tau_{\mathrm{Parent}}$ = ' + str(Ta) &<br> lb=r'$\tau_{\mathrm{Daughter}}$ = ' + str(Tb):  Dynamically creates string labels for the graph legend. The r'$...$' structure allows Python to render raw LaTeX notation . It appends the lifetime values (1.0 and 2.0) to the labels.<br></p>
+                <img src="" alt="Data Visualization" class="box-image">
             </div>
     </section>
 
