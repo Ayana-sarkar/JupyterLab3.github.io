@@ -243,7 +243,7 @@
                 <img src="Screenshot 2026-06-09 124745.png" alt="Data Visualization" class="box-image">
             </div>
             <div class="card">
-                <h2>3. Plot the functions x, x 3 , e x and e x ^2 over the interval 0 < x < 4 using (i) rectangular paper (ii) semilog paper (iii)log-log paper. </h2>
+                <h2>3. Plot the functions x, x^3 , e^x and e^x^2 over the interval 0 < x < 4 using (i) rectangular paper (ii) semilog paper (iii)log-log paper. </h2>
                 <img src="Screenshot 2026-03-15 110347.png" alt="Data Visualization" class="box-image">
                 <img src="Screenshot 2026-03-15 110404.png" alt="Data Visualization" class="box-image">
                 <img src="Screenshot 2026-03-15 110426.png" alt="Data Visualization" class="box-image">
@@ -256,7 +256,7 @@
             <div class="card">
                 <h2>4.Population Graph</h2>
                 <p>Plot the expression Pi(t), determined in modeling the growth of the population of a certain country according to two different models labelled by the parameters a1 and a2 given by<br> 
-                Pi(t) = 197, 273, 000/(1 + eai (t-1913.25))  <br> 
+                Pi(t) = 197, 273, 000/(1 + e^ai (t-1913.25))  <br> 
                 where t is the date, in years AD, using t = 1790 to 2000. What population is predicted 
                 in the year 2020? The values of the parameters are a1 = -0.0313 (Swami) and a2 = -0.121 (Ghosh). Supply labels and legends for the graphs.<br></p>
                 <img src="Screenshot 2026-03-15 122101.png" alt="Data Visualization" class="box-image">
@@ -279,7 +279,7 @@
             </div>
             <div class="card">
                 <h2>6.Normal Probability Density Function</h2>
-                <p.>Write a Python script using scipy.stats.norm.pdf and matplotlib to plot the theoretical standard normal distribution (where the mean µ = 0 and standard deviation = 1 over the range [-4, 4]. Label the x-axis as 'Value', the y-axis as 'Density', title the plot 'Normal Distribution', and display a grid and a legend labeling the curve as 'Theoretical PDF'.</p>
+                <p>Write a Python script using scipy.stats.norm.pdf and matplotlib to plot the theoretical standard normal distribution (where the mean µ = 0 and standard deviation = 1 over the range [-4, 4]. Label the x-axis as 'Value', the y-axis as 'Density', title the plot 'Normal Distribution', and display a grid and a legend labeling the curve as 'Theoretical PDF'.</p>
                 <img src="Screenshot 2026-04-19 230404.png" alt="Data Visualization" class="box-image">
                 <p>Line3:norm.pdf stands for the Normal Probability Density Function. It comes from the scipy.stats module (usually imported via from scipy.stats import norm)<br> 
                 x: This is your input array of data points (created by your np.linspace(-4, 4, 200)). The function will calculate a density value for all 200 points between -4 and 4.<br> 
@@ -308,6 +308,8 @@
                 <img src="Screenshot 2026-02-08 234838.png" alt="Data Visualization" class="box-image">
             </div>
     </section>
-
+    <footer>
+            <a href="https://ayana-sarkar.github.io/JupyterLab1.github.io/" class="btn">Previous</a>
+    </footer>
 </body>
 </html>
