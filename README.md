@@ -221,7 +221,7 @@
     <section id="curriculum" class="curriculum">
             <div class="card">
             <h2> 1. Notice the difference b/w List and Arrays</h2>
-            <img src="" alt="Data Visualization" class="box-image">
+            <img src="Screenshot 2026-06-10 011129.png" alt="Data Visualization" class="box-image">
             </div>
             <div class="card">
                 <h2>1.Identify the errors</h2>
