@@ -225,28 +225,28 @@
             </div>
             <div class="card">
                 <h2>1.Identify the errors</h2>
-                <img src="" alt="Data Visualization" class="box-image">
+                <img src="Screenshot 2026-06-09 141606.png" alt="Data Visualization" class="box-image">
                 <p>Answers: <br> 
                 Line2,3 : range should always be in ( ) , not { } . <br> 
                 Line 3: wrong-- [i in range{1,100}] <br> 
                 Right-- [i for i in range(1,100)]<br> 
                 Line 4: there’s a typo error; x and X are not the same. <br></p>
-                <img src="" alt="Data Visualization" class="box-image">
+                <img src="Screenshot 2026-06-09 141352.png" alt="Data Visualization" class="box-image">
             </div>
             <div class="card">
                 <h2>2.Identify the errors </h2>
-                <img src="" alt="Data Visualization" class="box-image">
+                <img src="Screenshot 2026-06-09 124840.png" alt="Data Visualization" class="box-image">
                 <p>Answers:<br> 
                 Line 4 :  the y array contains only 1 element that is 0, so no way any graph can be plotted. <br> 
                 Line 5,6: JupyterLab cannot understand  --val1, val2 in (x,y)<br> 
                 zip(x,y) is essential  to bring the values from x and y .<br> </p>
-                <img src="" alt="Data Visualization" class="box-image">
+                <img src="Screenshot 2026-06-09 124745.png" alt="Data Visualization" class="box-image">
             </div>
             <div class="card">
                 <h2>3. Plot the functions x, x 3 , e x and e x ^2 over the interval 0 < x < 4 using (i) rectangular paper (ii) semilog paper (iii)log-log paper. </h2>
-                <img src="" alt="Data Visualization" class="box-image">
-                <img src="" alt="Data Visualization" class="box-image">
-                <img src="" alt="Data Visualization" class="box-image">
+                <img src="Screenshot 2026-03-15 110347.png" alt="Data Visualization" class="box-image">
+                <img src="Screenshot 2026-03-15 110404.png" alt="Data Visualization" class="box-image">
+                <img src="Screenshot 2026-03-15 110426.png" alt="Data Visualization" class="box-image">
                 <p>plt.semilogy(x, y) plots data with a linear scale on the horizontal (x) axis and a logarithmic (base-10) scale on the vertical (y) axis. </p>
                 <img src="" alt="Data Visualization" class="box-image">
                 <img src="" alt="Data Visualization" class="box-image">
