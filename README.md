@@ -248,10 +248,10 @@
                 <img src="Screenshot 2026-03-15 110404.png" alt="Data Visualization" class="box-image">
                 <img src="Screenshot 2026-03-15 110426.png" alt="Data Visualization" class="box-image">
                 <p>plt.semilogy(x, y) plots data with a linear scale on the horizontal (x) axis and a logarithmic (base-10) scale on the vertical (y) axis. </p>
-                <img src="" alt="Data Visualization" class="box-image">
-                <img src="" alt="Data Visualization" class="box-image">
+                <img src="Screenshot 2026-03-15 110454.png" alt="Data Visualization" class="box-image">
+                <img src="Screenshot 2026-03-15 110504.png" alt="Data Visualization" class="box-image">
                 <p>plt.loglog(x, y) : This creates a plot where both the x-axis and the y-axis are scaled logarithmically. </p>
-                <img src="" alt="Data Visualization" class="box-image">
+                <img src="Screenshot 2026-03-15 110519.png" alt="Data Visualization" class="box-image">
             </div>
             <div class="card">
                 <h2>4.Population Graph</h2>
@@ -259,15 +259,15 @@
                 Pi(t) = 197, 273, 000/(1 + eai (t-1913.25))  <br> 
                 where t is the date, in years AD, using t = 1790 to 2000. What population is predicted 
                 in the year 2020? The values of the parameters are a1 = -0.0313 (Swami) and a2 = -0.121 (Ghosh). Supply labels and legends for the graphs.<br></p>
-                <img src="" alt="Data Visualization" class="box-image">
-                <img src="" alt="Data Visualization" class="box-image">
+                <img src="Screenshot 2026-03-15 122101.png" alt="Data Visualization" class="box-image">
+                <img src="Screenshot 2026-03-15 122120.png" alt="Data Visualization" class="box-image">
                 <p>predicted population in the year 2020 <br></p>
-                <img src="" alt="Data Visualization" class="box-image">
+                <img src="Screenshot 2026-03-15 122134.png" alt="Data Visualization" class="box-image">
             </div>
             <div class="card">
                 <h2>5.Plot the Trajectory</h2>
                 <p>Write a Python script using matplotlib to plot the height of the object over the first 5 seconds . Include a dashed horizontal line at h = 0 to clearly show the ground level. Use scipy.optimize.fsolve to numerically determine a time t when the object is at ground level (h(t) = 0), using an initial guess of tguess = 0.2.</p>
-                <img src="" alt="Data Visualization" class="box-image">
+                <img src="Screenshot 2026-04-19 214530.png" alt="Data Visualization" class="box-image">
                 <p>The height of the object as a function of time t (represented as x in the code) is given by the kinematic equation: <br> 
                 h(t) = vt – ½*gt^2<br> 
                 plt.axhline(0) adds a horizontal line across the entire width of the  plot at a specific y-value. It tells the function to place the line at y = 0.<br> 
@@ -275,21 +275,21 @@
                 fsolve(nonlinear_eq, x_guess): This calls SciPy's root finder. It takes the function (nonlinear_eq) and the starting point (0.2), does the mathematical heavy lifting, and returns the answer inside a NumPy array (e.g., [0.0]).<br>
                 [0]: Because fsolve returns an array, adding [0] at the end grabs just the first number out of that array so x_solution becomes a clean, single float value (0.0) instead of a list.<br> 
                 Isclose: Computers struggle with perfect precision due to floating-point math. Instead of checking if the result is exactly 0 (which might fail if the computer calculates 0.0000000000000001), np.isclose(..., 0) asks: "Is this number close enough to zero within a tiny fraction of a tolerance?" It evaluates to a boolean: True or False.</p>
-                <img src="" alt="Data Visualization" class="box-image">
+                <img src="Screenshot 2026-04-19 214605.png" alt="Data Visualization" class="box-image">
             </div>
             <div class="card">
                 <h2>6.Normal Probability Density Function</h2>
                 <p.>Write a Python script using scipy.stats.norm.pdf and matplotlib to plot the theoretical standard normal distribution (where the mean µ = 0 and standard deviation = 1 over the range [-4, 4]. Label the x-axis as 'Value', the y-axis as 'Density', title the plot 'Normal Distribution', and display a grid and a legend labeling the curve as 'Theoretical PDF'.</p>
-                <img src="" alt="Data Visualization" class="box-image">
+                <img src="Screenshot 2026-04-19 230404.png" alt="Data Visualization" class="box-image">
                 <p>Line3:norm.pdf stands for the Normal Probability Density Function. It comes from the scipy.stats module (usually imported via from scipy.stats import norm)<br> 
                 x: This is your input array of data points (created by your np.linspace(-4, 4, 200)). The function will calculate a density value for all 200 points between -4 and 4.<br> 
                 loc=mu: This defines the mean (center) of your distribution. In your code, mu = 0, meaning the bell curve will be perfectly centered on 0.<br> 
                 scale=sigma: This defines the standard deviation (width/spread) of your distribution. In your code, sigma = 1. A standard deviation of 1 means about 68% of all data points will fall between x = -1 and x = 1.<br></p>
-                <img src="" alt="Data Visualization" class="box-image">
+                <img src="Screenshot 2026-04-19 230543.png" alt="Data Visualization" class="box-image">
             </div>
             <div class="card">
                 <h2>7. radioactive decay equations for the combined decay of a Parent and Daughter nuclei using an Euler algorithm.</h2>
-                <img src="" alt="Data Visualization" class="box-image">
+                <img src="Screenshot 2026-02-08 234822.png" alt="Data Visualization" class="box-image">
                 <p>CELL 1:<br> 
                 %matplotlib inline: A Jupyter Notebook magic command that ensures any plots generated will display directly inside the notebook rather than opening in a separate pop-up window.<br> 
                 t = t0 Initializes a tracking clock variable t to the starting time.<br> 
@@ -305,7 +305,7 @@
                 CELL 3: <br> 
                 rcParams['mattext.default']= 'regular':  Configures Matplotlib's math text rendering so that any LaTeX equations used in titles or labels match the regular font style of the graph rather than looking italicized.<br> 
                 la=r'$\tau_{\mathrm{Parent}}$ = ' + str(Ta) &<br> lb=r'$\tau_{\mathrm{Daughter}}$ = ' + str(Tb):  Dynamically creates string labels for the graph legend. The r'$...$' structure allows Python to render raw LaTeX notation . It appends the lifetime values (1.0 and 2.0) to the labels.<br></p>
-                <img src="" alt="Data Visualization" class="box-image">
+                <img src="Screenshot 2026-02-08 234838.png" alt="Data Visualization" class="box-image">
             </div>
     </section>
 
